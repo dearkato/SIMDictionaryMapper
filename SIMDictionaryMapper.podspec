@@ -10,12 +10,11 @@
 Pod::Spec.new do |s|
   s.name             = "SIMDictionaryMapper"
   s.version          = "0.1.0"
-  s.summary          = "A short description of SIMDictionaryMapper."
+  s.summary          = "Simple library for mapping dictionnary on object."
   s.description      = <<-DESC
-                       An optional longer description of SIMDictionaryMapper
-
-                       * Markdown format.
-                       * Don't worry about the indent, we strip it!
+                       This library contains 2 classes.
+                        * First - resource for mapping dictionary on resource model.
+                        * Second - for formatting dictionary fields
                        DESC
   s.homepage         = "https://github.com/dearkato/SIMDictionaryMapper"
   # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
