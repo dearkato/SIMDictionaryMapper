@@ -1,0 +1,14 @@
+PODS:
+  - SIMDictionaryMapper (0.1.0)
+
+DEPENDENCIES:
+  - SIMDictionaryMapper (from `../`)
+
+EXTERNAL SOURCES:
+  SIMDictionaryMapper:
+    :path: ../
+
+SPEC CHECKSUMS:
+  SIMDictionaryMapper: abdc7fceaf49c302996d8bf926afa6e91e206599
+
+COCOAPODS: 0.34.4

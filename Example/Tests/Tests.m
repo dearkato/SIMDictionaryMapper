@@ -6,4 +6,4 @@
 //  Copyright (c) 2014 Yekaterina Gekkel. All rights reserved.
 //
 
-${TEST_EXAMPLE}
+

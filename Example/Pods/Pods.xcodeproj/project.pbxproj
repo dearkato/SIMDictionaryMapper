@@ -1,0 +1,550 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		776E16E71A25CFAF00F6A245 /* SIMDictionaryMapperResource.m in Sources */ = {isa = PBXBuildFile; fileRef = 776E16E41A25CFAF00F6A245 /* SIMDictionaryMapperResource.m */; };
+		776E16E81A25CFAF00F6A245 /* SIMDictionaryMapperResourceFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 776E16E61A25CFAF00F6A245 /* SIMDictionaryMapperResourceFormatter.m */; };
+		8CC9080AB5AC36F1CCFA0C39 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B385E501913F7EDFA0D45849 /* Foundation.framework */; };
+		9869A26432B06738FDFFB097 /* Pods-SIMDictionaryMapper-SIMDictionaryMapper-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CADE8596E80DB817543D10D1 /* Pods-SIMDictionaryMapper-SIMDictionaryMapper-dummy.m */; };
+		A5786B3AB339DA3AB0259E38 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B385E501913F7EDFA0D45849 /* Foundation.framework */; };
+		C485EA0B8A8BAB48DAFC7165 /* Pods-SIMDictionaryMapper-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B61B118FB0E33EE321B318D5 /* Pods-SIMDictionaryMapper-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		917A5BDE3BEC9AC934C27A0D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ECCF3721063343247BC30AEB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DC0B22DF7EC8A99E218DEA1D;
+			remoteInfo = "Pods-SIMDictionaryMapper-SIMDictionaryMapper";
+		};
+		F41C8B65978F6E6C5ECB2CE0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ECCF3721063343247BC30AEB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C74885E3BC7F1F378B6CCDE6;
+			remoteInfo = SIMDictionaryMapper;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04C13A8B0CBDC649C46838F9 /* Pods-SIMDictionaryMapper-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SIMDictionaryMapper-resources.sh"; sourceTree = "<group>"; };
+		0F98E9B3C09CC6A9A3D7362D /* Pods-SIMDictionaryMapper-SIMDictionaryMapper.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SIMDictionaryMapper-SIMDictionaryMapper.xcconfig"; sourceTree = "<group>"; };
+		124E5CF131DEA2EE1632C8D1 /* Pods-SIMDictionaryMapper-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SIMDictionaryMapper-acknowledgements.markdown"; sourceTree = "<group>"; };
+		3CD8D2B58B9BA87CCB273EB6 /* Pods-SIMDictionaryMapper.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SIMDictionaryMapper.debug.xcconfig"; sourceTree = "<group>"; };
+		501EB258FE7AE2E3CDA15BE6 /* libPods-SIMDictionaryMapper.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SIMDictionaryMapper.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E189814802400CC09636B94 /* Pods-SIMDictionaryMapper-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SIMDictionaryMapper-environment.h"; sourceTree = "<group>"; };
+		6EEADA68C91EF5CBD98D650C /* Pods-SIMDictionaryMapper-SIMDictionaryMapper-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SIMDictionaryMapper-SIMDictionaryMapper-Private.xcconfig"; sourceTree = "<group>"; };
+		776E16E31A25CFAF00F6A245 /* SIMDictionaryMapperResource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SIMDictionaryMapperResource.h; sourceTree = "<group>"; };
+		776E16E41A25CFAF00F6A245 /* SIMDictionaryMapperResource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SIMDictionaryMapperResource.m; sourceTree = "<group>"; };
+		776E16E51A25CFAF00F6A245 /* SIMDictionaryMapperResourceFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SIMDictionaryMapperResourceFormatter.h; sourceTree = "<group>"; };
+		776E16E61A25CFAF00F6A245 /* SIMDictionaryMapperResourceFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SIMDictionaryMapperResourceFormatter.m; sourceTree = "<group>"; };
+		79FCABDA20E096ACE916203E /* Pods-SIMDictionaryMapper.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SIMDictionaryMapper.release.xcconfig"; sourceTree = "<group>"; };
+		81E665856441C79E64FE0771 /* Pods-SIMDictionaryMapper-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SIMDictionaryMapper-acknowledgements.plist"; sourceTree = "<group>"; };
+		84E450BA745C93D26F27FC70 /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B385E501913F7EDFA0D45849 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		B61B118FB0E33EE321B318D5 /* Pods-SIMDictionaryMapper-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SIMDictionaryMapper-dummy.m"; sourceTree = "<group>"; };
+		B745535B948E879BC4B88BED /* Pods-SIMDictionaryMapper-SIMDictionaryMapper-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SIMDictionaryMapper-SIMDictionaryMapper-prefix.pch"; sourceTree = "<group>"; };
+		CADE8596E80DB817543D10D1 /* Pods-SIMDictionaryMapper-SIMDictionaryMapper-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SIMDictionaryMapper-SIMDictionaryMapper-dummy.m"; sourceTree = "<group>"; };
+		D672B6C958E7080AEE404888 /* SIMDictionaryMapper.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SIMDictionaryMapper.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		F093CA01F2F47B6AE7304938 /* libPods-SIMDictionaryMapper-SIMDictionaryMapper.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SIMDictionaryMapper-SIMDictionaryMapper.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		45652CF07C8C8A20C4298CF3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5786B3AB339DA3AB0259E38 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87A81359A0606270D89BCD41 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4D7CA36549DA7EC77DF947D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CC9080AB5AC36F1CCFA0C39 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0195F8A22A10B97D40B6DBAB /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				24F02EF7F5F4852DCC6AA7BC /* Pods-SIMDictionaryMapper */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		1472173A3AD9D94C1ECAA41D /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				B385E501913F7EDFA0D45849 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		24F02EF7F5F4852DCC6AA7BC /* Pods-SIMDictionaryMapper */ = {
+			isa = PBXGroup;
+			children = (
+				124E5CF131DEA2EE1632C8D1 /* Pods-SIMDictionaryMapper-acknowledgements.markdown */,
+				81E665856441C79E64FE0771 /* Pods-SIMDictionaryMapper-acknowledgements.plist */,
+				B61B118FB0E33EE321B318D5 /* Pods-SIMDictionaryMapper-dummy.m */,
+				5E189814802400CC09636B94 /* Pods-SIMDictionaryMapper-environment.h */,
+				04C13A8B0CBDC649C46838F9 /* Pods-SIMDictionaryMapper-resources.sh */,
+				3CD8D2B58B9BA87CCB273EB6 /* Pods-SIMDictionaryMapper.debug.xcconfig */,
+				79FCABDA20E096ACE916203E /* Pods-SIMDictionaryMapper.release.xcconfig */,
+			);
+			name = "Pods-SIMDictionaryMapper";
+			path = "Target Support Files/Pods-SIMDictionaryMapper";
+			sourceTree = "<group>";
+		};
+		65E47EAD6BA193F9DDB8CDDA /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8864B1B4238A30422A8E0C92 /* SIMDictionaryMapper */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		815E44FF6A917E9101C6E71B = {
+			isa = PBXGroup;
+			children = (
+				84E450BA745C93D26F27FC70 /* Podfile */,
+				65E47EAD6BA193F9DDB8CDDA /* Development Pods */,
+				86BAD0E5D71EAF22271E876D /* Frameworks */,
+				AB7EAE578402D6AF6917556F /* Products */,
+				0195F8A22A10B97D40B6DBAB /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		86BAD0E5D71EAF22271E876D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1472173A3AD9D94C1ECAA41D /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8864B1B4238A30422A8E0C92 /* SIMDictionaryMapper */ = {
+			isa = PBXGroup;
+			children = (
+				776E16E31A25CFAF00F6A245 /* SIMDictionaryMapperResource.h */,
+				776E16E41A25CFAF00F6A245 /* SIMDictionaryMapperResource.m */,
+				776E16E51A25CFAF00F6A245 /* SIMDictionaryMapperResourceFormatter.h */,
+				776E16E61A25CFAF00F6A245 /* SIMDictionaryMapperResourceFormatter.m */,
+				9B86B60F4A87048F73FA9E46 /* Support Files */,
+			);
+			name = SIMDictionaryMapper;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		9B86B60F4A87048F73FA9E46 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0F98E9B3C09CC6A9A3D7362D /* Pods-SIMDictionaryMapper-SIMDictionaryMapper.xcconfig */,
+				6EEADA68C91EF5CBD98D650C /* Pods-SIMDictionaryMapper-SIMDictionaryMapper-Private.xcconfig */,
+				CADE8596E80DB817543D10D1 /* Pods-SIMDictionaryMapper-SIMDictionaryMapper-dummy.m */,
+				B745535B948E879BC4B88BED /* Pods-SIMDictionaryMapper-SIMDictionaryMapper-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/Pods-SIMDictionaryMapper-SIMDictionaryMapper";
+			sourceTree = "<group>";
+		};
+		AB7EAE578402D6AF6917556F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D672B6C958E7080AEE404888 /* SIMDictionaryMapper.bundle */,
+				501EB258FE7AE2E3CDA15BE6 /* libPods-SIMDictionaryMapper.a */,
+				F093CA01F2F47B6AE7304938 /* libPods-SIMDictionaryMapper-SIMDictionaryMapper.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		84BC980532118980EA5CED61 /* Pods-SIMDictionaryMapper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E3230E82B28A0F8B9AD77AA9 /* Build configuration list for PBXNativeTarget "Pods-SIMDictionaryMapper" */;
+			buildPhases = (
+				6C7C0429D65D93F7FD778256 /* Sources */,
+				45652CF07C8C8A20C4298CF3 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				22E514B32AF0191ED26E720F /* PBXTargetDependency */,
+			);
+			name = "Pods-SIMDictionaryMapper";
+			productName = "Pods-SIMDictionaryMapper";
+			productReference = 501EB258FE7AE2E3CDA15BE6 /* libPods-SIMDictionaryMapper.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		C74885E3BC7F1F378B6CCDE6 /* SIMDictionaryMapper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 60950BDB1A8AEED832D7E036 /* Build configuration list for PBXNativeTarget "SIMDictionaryMapper" */;
+			buildPhases = (
+				B2344F28A96D9B3B4EC6ECAD /* Sources */,
+				87A81359A0606270D89BCD41 /* Frameworks */,
+				6B1545B1E7A0DB609F4DCA33 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SIMDictionaryMapper;
+			productName = SIMDictionaryMapper;
+			productReference = D672B6C958E7080AEE404888 /* SIMDictionaryMapper.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		DC0B22DF7EC8A99E218DEA1D /* Pods-SIMDictionaryMapper-SIMDictionaryMapper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2AC3CD33597687EAB9BDFA42 /* Build configuration list for PBXNativeTarget "Pods-SIMDictionaryMapper-SIMDictionaryMapper" */;
+			buildPhases = (
+				C6CC164F5E5BBF4B30999426 /* Sources */,
+				F4D7CA36549DA7EC77DF947D /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FBA7FBDFCBBCA0C2C86BF1DE /* PBXTargetDependency */,
+			);
+			name = "Pods-SIMDictionaryMapper-SIMDictionaryMapper";
+			productName = "Pods-SIMDictionaryMapper-SIMDictionaryMapper";
+			productReference = F093CA01F2F47B6AE7304938 /* libPods-SIMDictionaryMapper-SIMDictionaryMapper.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ECCF3721063343247BC30AEB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+			};
+			buildConfigurationList = 9FF8C1C07EBAC82C58CFC278 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 815E44FF6A917E9101C6E71B;
+			productRefGroup = AB7EAE578402D6AF6917556F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				84BC980532118980EA5CED61 /* Pods-SIMDictionaryMapper */,
+				DC0B22DF7EC8A99E218DEA1D /* Pods-SIMDictionaryMapper-SIMDictionaryMapper */,
+				C74885E3BC7F1F378B6CCDE6 /* SIMDictionaryMapper */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6B1545B1E7A0DB609F4DCA33 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6C7C0429D65D93F7FD778256 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				776E16E81A25CFAF00F6A245 /* SIMDictionaryMapperResourceFormatter.m in Sources */,
+				776E16E71A25CFAF00F6A245 /* SIMDictionaryMapperResource.m in Sources */,
+				C485EA0B8A8BAB48DAFC7165 /* Pods-SIMDictionaryMapper-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2344F28A96D9B3B4EC6ECAD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6CC164F5E5BBF4B30999426 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9869A26432B06738FDFFB097 /* Pods-SIMDictionaryMapper-SIMDictionaryMapper-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		22E514B32AF0191ED26E720F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DC0B22DF7EC8A99E218DEA1D /* Pods-SIMDictionaryMapper-SIMDictionaryMapper */;
+			targetProxy = 917A5BDE3BEC9AC934C27A0D /* PBXContainerItemProxy */;
+		};
+		FBA7FBDFCBBCA0C2C86BF1DE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C74885E3BC7F1F378B6CCDE6 /* SIMDictionaryMapper */;
+			targetProxy = F41C8B65978F6E6C5ECB2CE0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		00318131C244062D7F7FAA8B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+			};
+			name = Debug;
+		};
+		09F29F06431EEDA2CFA74009 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 79FCABDA20E096ACE916203E /* Pods-SIMDictionaryMapper.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DSTROOT = /tmp/xcodeproj.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				OTHER_CFLAGS = (
+					"-DNS_BLOCK_ASSERTIONS=1",
+					"$(inherited)",
+				);
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DNS_BLOCK_ASSERTIONS=1",
+					"$(inherited)",
+				);
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		340D2AA6914DC4AC1270CD7F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		4D27058736E0B8D11453C8B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3CD8D2B58B9BA87CCB273EB6 /* Pods-SIMDictionaryMapper.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				DSTROOT = /tmp/xcodeproj.dst;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		7A2016DEE22804D35FFF59F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6EEADA68C91EF5CBD98D650C /* Pods-SIMDictionaryMapper-SIMDictionaryMapper-Private.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				DSTROOT = /tmp/xcodeproj.dst;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-SIMDictionaryMapper-SIMDictionaryMapper/Pods-SIMDictionaryMapper-SIMDictionaryMapper-prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		7AD1BA0BBB68DB137CC6ECA8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		8C90812E53FE655E4794F7D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				STRIP_INSTALLED_PRODUCT = NO;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D013FE2D60AAFCC04CFD78E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6EEADA68C91EF5CBD98D650C /* Pods-SIMDictionaryMapper-SIMDictionaryMapper-Private.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DSTROOT = /tmp/xcodeproj.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-SIMDictionaryMapper-SIMDictionaryMapper/Pods-SIMDictionaryMapper-SIMDictionaryMapper-prefix.pch";
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				OTHER_CFLAGS = (
+					"-DNS_BLOCK_ASSERTIONS=1",
+					"$(inherited)",
+				);
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DNS_BLOCK_ASSERTIONS=1",
+					"$(inherited)",
+				);
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2AC3CD33597687EAB9BDFA42 /* Build configuration list for PBXNativeTarget "Pods-SIMDictionaryMapper-SIMDictionaryMapper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A2016DEE22804D35FFF59F3 /* Debug */,
+				D013FE2D60AAFCC04CFD78E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		60950BDB1A8AEED832D7E036 /* Build configuration list for PBXNativeTarget "SIMDictionaryMapper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7AD1BA0BBB68DB137CC6ECA8 /* Debug */,
+				340D2AA6914DC4AC1270CD7F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9FF8C1C07EBAC82C58CFC278 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00318131C244062D7F7FAA8B /* Debug */,
+				8C90812E53FE655E4794F7D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E3230E82B28A0F8B9AD77AA9 /* Build configuration list for PBXNativeTarget "Pods-SIMDictionaryMapper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D27058736E0B8D11453C8B3 /* Debug */,
+				09F29F06431EEDA2CFA74009 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ECCF3721063343247BC30AEB /* Project object */;
+}
