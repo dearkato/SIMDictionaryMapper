@@ -44,6 +44,7 @@
 		776E16E41A25CFAF00F6A245 /* SIMDictionaryMapperResource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SIMDictionaryMapperResource.m; sourceTree = "<group>"; };
 		776E16E51A25CFAF00F6A245 /* SIMDictionaryMapperResourceFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SIMDictionaryMapperResourceFormatter.h; sourceTree = "<group>"; };
 		776E16E61A25CFAF00F6A245 /* SIMDictionaryMapperResourceFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SIMDictionaryMapperResourceFormatter.m; sourceTree = "<group>"; };
+		776E16E91A25D72000F6A245 /* SIMDictionaryMapper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SIMDictionaryMapper.h; sourceTree = "<group>"; };
 		79FCABDA20E096ACE916203E /* Pods-SIMDictionaryMapper.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SIMDictionaryMapper.release.xcconfig"; sourceTree = "<group>"; };
 		81E665856441C79E64FE0771 /* Pods-SIMDictionaryMapper-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SIMDictionaryMapper-acknowledgements.plist"; sourceTree = "<group>"; };
 		84E450BA745C93D26F27FC70 /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
@@ -148,6 +149,7 @@
 				776E16E51A25CFAF00F6A245 /* SIMDictionaryMapperResourceFormatter.h */,
 				776E16E61A25CFAF00F6A245 /* SIMDictionaryMapperResourceFormatter.m */,
 				9B86B60F4A87048F73FA9E46 /* Support Files */,
+				776E16E91A25D72000F6A245 /* SIMDictionaryMapper.h */,
 			);
 			name = SIMDictionaryMapper;
 			path = ../..;
