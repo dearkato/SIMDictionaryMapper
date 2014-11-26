@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		776E16E71A25CFAF00F6A245 /* SIMDictionaryMapperResource.m in Sources */ = {isa = PBXBuildFile; fileRef = 776E16E41A25CFAF00F6A245 /* SIMDictionaryMapperResource.m */; };
-		776E16E81A25CFAF00F6A245 /* SIMDictionaryMapperResourceFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 776E16E61A25CFAF00F6A245 /* SIMDictionaryMapperResourceFormatter.m */; };
+		776E16F21A25D89900F6A245 /* SIMDictionaryMapperResource.m in Sources */ = {isa = PBXBuildFile; fileRef = 776E16EE1A25D89900F6A245 /* SIMDictionaryMapperResource.m */; };
+		776E16F31A25D89900F6A245 /* SIMDictionaryMapperResourceFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 776E16F01A25D89900F6A245 /* SIMDictionaryMapperResourceFormatter.m */; };
 		8CC9080AB5AC36F1CCFA0C39 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B385E501913F7EDFA0D45849 /* Foundation.framework */; };
 		9869A26432B06738FDFFB097 /* Pods-SIMDictionaryMapper-SIMDictionaryMapper-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CADE8596E80DB817543D10D1 /* Pods-SIMDictionaryMapper-SIMDictionaryMapper-dummy.m */; };
 		A5786B3AB339DA3AB0259E38 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B385E501913F7EDFA0D45849 /* Foundation.framework */; };
@@ -40,11 +40,11 @@
 		501EB258FE7AE2E3CDA15BE6 /* libPods-SIMDictionaryMapper.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SIMDictionaryMapper.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E189814802400CC09636B94 /* Pods-SIMDictionaryMapper-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SIMDictionaryMapper-environment.h"; sourceTree = "<group>"; };
 		6EEADA68C91EF5CBD98D650C /* Pods-SIMDictionaryMapper-SIMDictionaryMapper-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SIMDictionaryMapper-SIMDictionaryMapper-Private.xcconfig"; sourceTree = "<group>"; };
-		776E16E31A25CFAF00F6A245 /* SIMDictionaryMapperResource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SIMDictionaryMapperResource.h; sourceTree = "<group>"; };
-		776E16E41A25CFAF00F6A245 /* SIMDictionaryMapperResource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SIMDictionaryMapperResource.m; sourceTree = "<group>"; };
-		776E16E51A25CFAF00F6A245 /* SIMDictionaryMapperResourceFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SIMDictionaryMapperResourceFormatter.h; sourceTree = "<group>"; };
-		776E16E61A25CFAF00F6A245 /* SIMDictionaryMapperResourceFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SIMDictionaryMapperResourceFormatter.m; sourceTree = "<group>"; };
-		776E16E91A25D72000F6A245 /* SIMDictionaryMapper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SIMDictionaryMapper.h; sourceTree = "<group>"; };
+		776E16EC1A25D89900F6A245 /* SIMDictionaryMapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SIMDictionaryMapper.h; sourceTree = "<group>"; };
+		776E16ED1A25D89900F6A245 /* SIMDictionaryMapperResource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SIMDictionaryMapperResource.h; sourceTree = "<group>"; };
+		776E16EE1A25D89900F6A245 /* SIMDictionaryMapperResource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SIMDictionaryMapperResource.m; sourceTree = "<group>"; };
+		776E16EF1A25D89900F6A245 /* SIMDictionaryMapperResourceFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SIMDictionaryMapperResourceFormatter.h; sourceTree = "<group>"; };
+		776E16F01A25D89900F6A245 /* SIMDictionaryMapperResourceFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SIMDictionaryMapperResourceFormatter.m; sourceTree = "<group>"; };
 		79FCABDA20E096ACE916203E /* Pods-SIMDictionaryMapper.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SIMDictionaryMapper.release.xcconfig"; sourceTree = "<group>"; };
 		81E665856441C79E64FE0771 /* Pods-SIMDictionaryMapper-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SIMDictionaryMapper-acknowledgements.plist"; sourceTree = "<group>"; };
 		84E450BA745C93D26F27FC70 /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
@@ -122,6 +122,19 @@
 			name = "Development Pods";
 			sourceTree = "<group>";
 		};
+		776E16EA1A25D89900F6A245 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				776E16EC1A25D89900F6A245 /* SIMDictionaryMapper.h */,
+				776E16ED1A25D89900F6A245 /* SIMDictionaryMapperResource.h */,
+				776E16EE1A25D89900F6A245 /* SIMDictionaryMapperResource.m */,
+				776E16EF1A25D89900F6A245 /* SIMDictionaryMapperResourceFormatter.h */,
+				776E16F01A25D89900F6A245 /* SIMDictionaryMapperResourceFormatter.m */,
+			);
+			name = Classes;
+			path = Pod/Classes;
+			sourceTree = "<group>";
+		};
 		815E44FF6A917E9101C6E71B = {
 			isa = PBXGroup;
 			children = (
@@ -144,12 +157,8 @@
 		8864B1B4238A30422A8E0C92 /* SIMDictionaryMapper */ = {
 			isa = PBXGroup;
 			children = (
-				776E16E31A25CFAF00F6A245 /* SIMDictionaryMapperResource.h */,
-				776E16E41A25CFAF00F6A245 /* SIMDictionaryMapperResource.m */,
-				776E16E51A25CFAF00F6A245 /* SIMDictionaryMapperResourceFormatter.h */,
-				776E16E61A25CFAF00F6A245 /* SIMDictionaryMapperResourceFormatter.m */,
+				776E16EA1A25D89900F6A245 /* Classes */,
 				9B86B60F4A87048F73FA9E46 /* Support Files */,
-				776E16E91A25D72000F6A245 /* SIMDictionaryMapper.h */,
 			);
 			name = SIMDictionaryMapper;
 			path = ../..;
@@ -273,8 +282,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				776E16E81A25CFAF00F6A245 /* SIMDictionaryMapperResourceFormatter.m in Sources */,
-				776E16E71A25CFAF00F6A245 /* SIMDictionaryMapperResource.m in Sources */,
 				C485EA0B8A8BAB48DAFC7165 /* Pods-SIMDictionaryMapper-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -283,6 +290,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				776E16F21A25D89900F6A245 /* SIMDictionaryMapperResource.m in Sources */,
+				776E16F31A25D89900F6A245 /* SIMDictionaryMapperResourceFormatter.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
