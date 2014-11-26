@@ -1,0 +1,8 @@
+source 'https://github.com/CocoaPods/Specs.git'
+
+
+target 'SIMDictionaryMapper', :exclusive => true do
+  pod "SIMDictionaryMapper", :path => "../"
+
+  
+end
