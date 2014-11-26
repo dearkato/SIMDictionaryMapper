@@ -9,7 +9,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "SIMDictionaryMapper"
-  s.version          = "0.1.0"
+  s.version          = "0.1.1"
   s.summary          = "Simple library for mapping dictionnary on object."
   s.description      = <<-DESC
                        This library contains 2 classes.
