@@ -17,7 +17,7 @@
 
 @interface SIMDictionaryMapperResource()
 
-@property (nonatomic, strong) NSDictionary *__dictionary;
+@property (nonatomic, strong) NSMutableDictionary *__dictionary;
 
 @end
 
@@ -77,7 +77,7 @@
 }
 
 - (void)setWithDictionary:(NSDictionary*)dict {
-    self.__dictionary = dict;
+    self.__dictionary = [dict mutableCopy];
     
     // Loops through all keys to map to propertiess
     NSDictionary *map = [self mapKeysToProperties];

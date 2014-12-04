@@ -9,7 +9,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "SIMDictionaryMapper"
-  s.version          = "0.1.1"
+  s.version          = "0.1.2"
   s.summary          = "Simple library for mapping dictionnary on object."
   s.description      = <<-DESC
                        This library contains 2 classes.
@@ -17,16 +17,14 @@ Pod::Spec.new do |s|
                         * Second - for formatting dictionary fields
                        DESC
   s.homepage         = "https://github.com/dearkato/SIMDictionaryMapper"
-  # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
   s.license          = 'MIT'
   s.author           = { "Yekaterina Gekkel" => "gekkelkate@gmail.com" }
   s.source           = { :git => "https://github.com/dearkato/SIMDictionaryMapper.git", :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.platform     = :ios, '7.0'
   s.requires_arc = true
 
-s.source_files = 'Pod/Classes/*.{h,m}'
+  s.source_files = 'Pod/Classes/*.{h,m}'
   s.resource_bundles = {
     'SIMDictionaryMapper' => ['Pod/Assets/*.png']
   }
